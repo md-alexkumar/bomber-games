@@ -1,0 +1,25 @@
+name: Node.js CI
+ 
+on:
+  push:
+    branches: [ main ] # The branch we need to watch on push
+  pull_request:
+    branches: [ main ] # The branch we need to watch on pull request merge
+ 
+jobs:
+  build:
+ 
+    runs-on: ubuntu-latest
+ 
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x, 14.x, 15.x] # The node versions we are going to support
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+ 
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install dependencies
+      run: yarn install # Install the dependencies
+      
+    - name: Create build
+      run: yarn build # Build the app
