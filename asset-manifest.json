@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/bomber-games/static/css/main.a8f6572a.chunk.css",
+    "main.js": "/bomber-games/static/js/main.6a85dda0.chunk.js",
+    "main.js.map": "/bomber-games/static/js/main.6a85dda0.chunk.js.map",
+    "runtime-main.js": "/bomber-games/static/js/runtime-main.1ea3dcf8.js",
+    "runtime-main.js.map": "/bomber-games/static/js/runtime-main.1ea3dcf8.js.map",
+    "static/js/2.2f84238d.chunk.js": "/bomber-games/static/js/2.2f84238d.chunk.js",
+    "static/js/2.2f84238d.chunk.js.map": "/bomber-games/static/js/2.2f84238d.chunk.js.map",
+    "index.html": "/bomber-games/index.html",
+    "static/css/main.a8f6572a.chunk.css.map": "/bomber-games/static/css/main.a8f6572a.chunk.css.map",
+    "static/js/2.2f84238d.chunk.js.LICENSE.txt": "/bomber-games/static/js/2.2f84238d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ea3dcf8.js",
+    "static/js/2.2f84238d.chunk.js",
+    "static/css/main.a8f6572a.chunk.css",
+    "static/js/main.6a85dda0.chunk.js"
+  ]
+}
